@@ -6,6 +6,7 @@ class Solution:
             return True
         else:
             return False
+
 #A bit cleaner version
 class Solution:
     def containsDuplicate(nums):
