@@ -12,7 +12,7 @@ class Solution:
 
 #Best approach (Boyer-Moore Algorithm)
 class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+    def majorityElement(nums):
         candidate = None
         count = 0
         for num in nums:
