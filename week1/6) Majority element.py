@@ -26,4 +26,12 @@ class Solution:
 #T: O(n)
 #S: O(1)
 
+#Creative approach
+import collections
+class Solution:
+    def majorityElement(nums):
+        n = len(nums)
+        nums.sort()
+        return nums[n//2]
+
 #Note: Again for frequencies, use hashmap/dict
