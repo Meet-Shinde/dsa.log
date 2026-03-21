@@ -27,11 +27,12 @@ class Solution:
 #S: O(1)
 
 #Creative approach
-import collections
 class Solution:
     def majorityElement(nums):
         n = len(nums)
         nums.sort()
         return nums[n//2]
+#T: O(nlogn)
+#S: O(n) most likely
 
 #Note: Again for frequencies, use hashmap/dict
