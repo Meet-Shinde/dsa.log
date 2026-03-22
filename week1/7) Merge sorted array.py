@@ -21,6 +21,8 @@ class Solution:
                 nums1[k] = nums2[j]
                 j -= 1
             k -= 1
+        #if only i gets exhausted, then we need to 
+        # copy the remaining elements of j.
         while j >= 0:
             nums1[k] = nums2[j]
             j -= 1

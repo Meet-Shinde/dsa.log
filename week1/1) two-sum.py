@@ -18,5 +18,5 @@ class Solution:
             seen[value] = index
         return None
 
-#Note: Dict works good when counting is to be done (frequency).
-#and for uniqueness (cuz keys dont repeat in dicts)
+'''Note: Dict works good when counting is to be done (frequency),
+and for uniqueness (cuz keys dont repeat in dicts)'''

@@ -27,5 +27,5 @@ class Solution:
     def isAnagram(s,t):
         return Counter(s)==Counter(t)
 
-#Note: Set = who exists
-#      Dict/Counter = how many exist
+'''Note: Set = who exists
+    Dict/Counter = how many exist'''
