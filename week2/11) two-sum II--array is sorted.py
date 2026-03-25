@@ -25,7 +25,7 @@ class Solution:
             first+=1
         return None
 
-#Optimal way: 
+#Optimal Solution: 
 class Solution:
     def twoSum(numbers, target):
         left=0

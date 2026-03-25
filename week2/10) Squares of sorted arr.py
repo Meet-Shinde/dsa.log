@@ -17,7 +17,7 @@ class Solution:
 #T: O(n^2) cuz of repetitive insert()
 #S: O(n)
 
-#Optimal way: 
+#Optimal Solution: 
 class Solution:
     def sortedSquares(nums):
         left=0

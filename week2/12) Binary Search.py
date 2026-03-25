@@ -1,7 +1,7 @@
 #My approach:
 #Couldnt formulate an approach.
 
-#Best way:
+#Optimal Solution:
 class Solution:
     def search(nums,target):
         left=0
